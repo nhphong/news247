@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="margin_xsmall">4dp</dimen>
+  <dimen name="margin_small">8dp</dimen>
+  <dimen name="margin">10dp</dimen>
+
+  <dimen name="padding_xxxsmall">2dp</dimen>
+  <dimen name="padding_xxsmall">4dp</dimen>
+  <dimen name="padding_xsmall">6dp</dimen>
+
+  <dimen name="article_preview_image_height">190dp</dimen>
+  <dimen name="text_size">14sp</dimen>
+</resources>

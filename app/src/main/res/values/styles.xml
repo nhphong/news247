@@ -1,0 +1,27 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="OneLineText">
+    <item name="android:layout_marginLeft">@dimen/margin_small</item>
+    <item name="android:layout_marginStart">@dimen/margin_small</item>
+    <item name="android:layout_marginRight">@dimen/margin_small</item>
+    <item name="android:layout_marginEnd">@dimen/margin_small</item>
+    <item name="android:layout_marginTop">@dimen/margin_xsmall</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:textSize">@dimen/text_size</item>
+  </style>
+
+  <style name="TwoLineText" parent="OneLineText">
+    <item name="android:maxLines">2</item>
+  </style>
+
+</resources>
